@@ -1,0 +1,53 @@
+#senter {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  align-items: center;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+#searchForm {
+  margin-top: 20px;
+}
+
+#searchInput {
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+#photoContainer {
+  margin-top: 20px;
+}
+
+#photo {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#photoName {
+  margin-top: 10px;
+}
+
+#navigationButtons {
+  margin-top: 10px;
+}

@@ -1,0 +1,22 @@
+<div id="senter">
+  <h2>Foto Zeigen und Suche </h2>
+
+  <div id="searchForm">
+    <input type="text" id="searchInput" placeholder="Suche nach Foto..." [(ngModel)]="searchTerm" >
+    <button (click)="searchForPhoto()">Suchen</button>
+  </div>
+
+  <div id="photoContainer">
+    <img id="photo" [src]="currentFoto?.foto">
+    <p id="photoName">{{ currentFoto?.name ?? 'no foto' }}</p>
+
+    <div id="navigationButtons">
+      <button id="prevButton" (click)="previousFoto()">&lt;</button>
+      <button id="nextButton" (click)="nextFoto()">&gt;</button>
+    </div>
+  </div>
+
+  <div id="searchResults">
+
+  </div>
+</div>
